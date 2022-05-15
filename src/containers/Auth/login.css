@@ -1,0 +1,109 @@
+.login-background {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#070707), color-stop(#2a1b2e), color-stop(#5b2244), color-stop(#902647), to(#be3636));
+  background-image: linear-gradient(to right top, #070707, #2a1b2e, #5b2244, #902647, #be3636);
+  height: 100vh;
+}
+
+.login-background .login-container {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.login-background .login-container .login-content {
+  padding: 20px;
+}
+
+.login-background .login-container .login-content .login-text {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.login-background .login-container .login-content .login-input {
+  margin: 7px 0;
+}
+
+.login-background .login-container .login-content .login-input .login-custom-password {
+  position: relative;
+}
+
+.login-background .login-container .login-content .login-input i {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.login-background .login-container .login-content .forgot-password {
+  font-size: 12px;
+}
+
+.login-background .login-container .login-content .login-btn {
+  margin-top: 1rem;
+  border: none;
+  height: 40px;
+  border-radius: 15px;
+  color: white;
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#070707), color-stop(#2a1b2e), color-stop(#5b2244), color-stop(#902647), to(#be3636));
+  background-image: linear-gradient(to right top, #070707, #2a1b2e, #5b2244, #902647, #be3636);
+}
+
+.login-background .login-container .login-content .social-icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+  gap: 12px;
+}
+
+.login-background .login-container .login-content .social-icon .google {
+  font-size: 25px;
+  background-color: #902647;
+  color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.login-background .login-container .login-content .social-icon .facebook {
+  font-size: 25px;
+  background-color: #809bf5;
+  color: white;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=login.css.map */
