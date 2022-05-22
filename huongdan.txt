@@ -1,0 +1,5 @@
+life cycle
+- run component
+    run constructor -> init state
+    did mount
+    render
