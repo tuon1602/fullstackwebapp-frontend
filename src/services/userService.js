@@ -30,4 +30,9 @@ const deleteUserService= (userId)=>
     })
 }
 
-export {handleLoginApi, getAllUsers, createNewUserService,deleteUserService} //goi den server nodejs thong qua axios
+const editUserService = (inputData)=>
+{
+    return axios.put('/api/edit-user', inputData)
+}
+
+export {handleLoginApi, getAllUsers, createNewUserService,deleteUserService,editUserService} //goi den server nodejs thong qua axios
